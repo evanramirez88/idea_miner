@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.log
+/.pytest_cache/
+/.mypy_cache/
+
+# virtual environments
+.venv/
+venv/
+
+# reports
+report.txt
+
