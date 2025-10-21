@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.DS_Store
+*.log
+analysis_output/
+sample_output/
+.eggs/
+build/
+dist/
+.idea/
+.vscode/
