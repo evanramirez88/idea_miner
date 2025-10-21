@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "idea-miner"
+version = "0.1.0"
+description = "Analyze ChatGPT conversation exports to surface recurring themes and opportunities."
+authors = [{name = "Idea Miner"}]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+idea-miner = "idea_miner.main:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
